@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="mailinglist.php" method="get">
+        <h2>"Pimp My" Contest Entry Form</h2>
+        <p>
+            Want to trade in your old sneakers for a custom pair of Forcefields?<br />
+            Make a case for why your shoes have got to go and you may be<br />
+            one of ten lucky winners.
+        </p>
+        <p>Contest Entry Information</p>
+        <li>Name: <input type=text name="ten" id="ten" maxlength="20" /></li>
+        <li>Email: <input type="email" name="emil" id="eml" /></li>
+        <li>Phone: <input type="tel" name="phone" id="dt" /></li>
+        <li>
+            My shoes are SO old...<br>
+            <textarea name="story" rows="4" cols="60" maxlength="300"
+                      placeholder="No more than 300 characters long"></textarea>
+        </li>
+        <p>
+            <h3>Design your custom Forcefields: </h3>
+            Custom shoe design
+        </p>
+        <p>
+            Color <em>(choose one):</em><br />
+            <label><input type="radio" name="mau" id="red" checked/>Red</label><br />
+            <label><input type="radio" name="mau" id="blue" />Blue</label><br />
+            <label><input type="radio" name="mau" id="black" />Black</label><br />
+            <label><input type="radio" name="mau" id="silver" />Silver</label>
+        </p>
+        <p>
+            Features<em>(Choose as many as you want)</em><br />
+            <label><input type="checkbox" name="sll" id="sl" checked/>Sparkley laces</label><br />
+            <label><input type="checkbox" name="ml" id="ml" />Metallic logo</label><br />
+            <label><input type="checkbox" name="lh" id="lh" />Light-up heels</label><br />
+            <label><input type="checkbox" name="me" id="Me" />MP3-enabled</label>
+        </p>
+        <p>
+            Size<br />
+            Sizes reflect standard men's sizing: <select name="size">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+            </select>
+        </p>
+        <input type="submit" value="Ping My Shoes!" /> <input type="reset" value="Reset" />
+    </form>
+
+</body>
+</html>

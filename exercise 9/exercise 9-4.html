@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="mailinglist.php" method="get">
+        <fieldset>
+            <legend>Contest Entry Information</legend>
+            <ul>
+                <li><label>Name: <input type="text" name="username"></label></li>
+                <li><label>Email Address: <input type="email" name="email" /></label></li>
+                <li><label>Telephone Number: <input type="tel" name="phone" /></label></li>
+                <li>
+                    My shoes are SO old...<br />
+                    <textarea name="story" rows="4" cols="60" maxlength="300" placeholder="No more than 300 characters long"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+        <h2>Design your custom Forcefields:</h2>
+        <fieldset>
+            <legend>Custom Shoe Design</legend>
+            <fieldset>
+                <legend>Color <em>(choose one):</em></legend>
+                <li><input type="radio" name="color" id="do" />Red</li>
+                <li><input type="radio" name="color" id="xanh" />Blue</li>
+                <li><input type="radio" name="color" id="den" />Black</li>
+                <li><input type="radio" name="color" id="bac" />Silver</li>
+            </fieldset>
+
+            <fieldset>
+                <legend>Features <em>(Choose as many as you want)</em></legend>
+                <li><label for="sl"><input type="checkbox" name="sl" id="sl" />Sparkley laces</label></li>
+                <li><label for="ml"><input type="checkbox" name="ml" id="ml" />Metallic logo</label></li>
+                <li><label for="lh"><input type="checkbox" name="lh" id="lh" />Light-up heels</label></li>
+                <li><label for="me"><input type="checkbox" name="me" id="me" />MP3-enabled</label></li>
+            </fieldset>
+            <fieldset>
+                <legend>Size</legend>
+                <p>
+                    Sizes reflect standard men's sizes:
+                    <select name="size">
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                    </select>
+                </p>
+            </fieldset>
+        </fieldset>
+        <input type="submit" value="Pimp My Shoes!" />  <input type="reset" value="Reset" />
+    </form>
+
+</html>
